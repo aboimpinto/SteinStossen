@@ -1,0 +1,108 @@
+name: CI - Steinstossen
+
+on:
+  push:
+    branches: ["master"]
+    tags-ignore: ["**"]
+  pull_request:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: steinstossen-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  test-build-container:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install Python dependencies
+        run: python -m pip install --requirement scripts/requirements.txt
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Verify committed SQLite database
+        run: |
+          python - <<'PY'
+          import sqlite3
+          from pathlib import Path
+
+          path = Path("data/steinstossen.sqlite")
+          if not path.is_file() or path.stat().st_size == 0:
+              raise SystemExit("The committed SQLite database is missing or empty.")
+          connection = sqlite3.connect(path)
+          if connection.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
+              raise SystemExit("SQLite integrity check failed.")
+          result_documents = connection.execute(
+              "SELECT COUNT(*) FROM source_documents WHERE document_kind='results'"
+          ).fetchone()[0]
+          empty_documents = connection.execute(
+              "SELECT COUNT(*) FROM source_documents WHERE document_kind='results' AND parsed_result_count=0"
+          ).fetchone()[0]
+          if result_documents != 305 or empty_documents != 0:
+              raise SystemExit(
+                  f"Unexpected source coverage: {result_documents} result documents, {empty_documents} empty"
+              )
+          print(f"SQLite verified: {result_documents} result documents, all parsed")
+          PY
+
+      - name: Test importer and typecheck
+        run: npm test
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Production build
+        run: npm run build
+
+      - name: Build production container
+        run: docker build --tag steinstossen-ci .
+
+      - name: Smoke-test production container
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run -d --name steinstossen-ci -p 127.0.0.1:3210:3000 steinstossen-ci
+          trap 'docker logs steinstossen-ci || true; docker rm -f steinstossen-ci >/dev/null 2>&1 || true' EXIT
+
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:3210/api/health > /tmp/steinstossen-health.json; then
+              break
+            fi
+            if [ "${attempt}" -eq 30 ]; then
+              echo "Container health check did not become ready." >&2
+              exit 1
+            fi
+            sleep 2
+          done
+
+          grep -q '"status":"ok"' /tmp/steinstossen-health.json
+          curl -fsS http://127.0.0.1:3210/de > /tmp/steinstossen-de.html
+          curl -fsS http://127.0.0.1:3210/en > /tmp/steinstossen-en.html
+          grep -q 'Jeder Stoss' /tmp/steinstossen-de.html
+          grep -q 'Every throw' /tmp/steinstossen-en.html

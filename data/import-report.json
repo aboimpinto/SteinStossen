@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-08-11T10:57:01.205217+00:00",
+  "archive_url": "https://steinstossen.ch/reglement-ranglisten/",
+  "sources": 308,
+  "parsed_sources": 305,
+  "ocr_sources": 94,
+  "competitions": 305,
+  "athletes": 4605,
+  "disciplines": 436,
+  "results": 17032,
+  "attempts": 18228,
+  "results_with_explicit_attempts": 5394,
+  "season_min": 2004,
+  "season_max": 2026,
+  "unknown_sex_results": 1314,
+  "unknown_weight_results": 909,
+  "official_athlete_profiles": 42,
+  "excluded_outlier_rows": 69
+}

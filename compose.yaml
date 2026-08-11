@@ -1,0 +1,10 @@
+services:
+  steinstossen:
+    build: .
+    image: aboimpinto/steinstossen-zeitreihen:local
+    restart: unless-stopped
+    ports:
+      - "${STEINSTOSSEN_PORT:-3210}:3000"
+    environment:
+      NODE_ENV: production
+      STEINSTOSSEN_DB_PATH: /app/data/steinstossen.sqlite

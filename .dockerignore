@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+.gitignore
+npm-debug.log*
+data/source-pdfs
+data/extracted-text
+scripts/__pycache__

@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Betschart Mauro",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/betsch.jpg",
+    "birth_year": 2005,
+    "height_cm": 200,
+    "body_weight_kg": 120,
+    "career_start_year": 2025
+  },
+  {
+    "name": "Bingisser Martin",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/250830067A2531-1.jpg",
+    "birth_year": 1983,
+    "height_cm": 187,
+    "body_weight_kg": 117,
+    "career_start_year": 2010
+  },
+  {
+    "name": "Büchenbacher Benedikt",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-12.jpg",
+    "birth_year": 1994,
+    "height_cm": 200,
+    "body_weight_kg": 107,
+    "career_start_year": 2022
+  },
+  {
+    "name": "De Benedetto Flavio",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-2-5.jpg",
+    "birth_year": 1991,
+    "height_cm": 200,
+    "body_weight_kg": 115,
+    "career_start_year": 2024
+  },
+  {
+    "name": "Gamma Andrin",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/PHOTO-2025-09-04-08-13-31-1.jpg",
+    "birth_year": 1998,
+    "height_cm": 188,
+    "body_weight_kg": 108,
+    "career_start_year": 2025
+  },
+  {
+    "name": "Gfeller Roger",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-1-10.jpg",
+    "birth_year": 1978,
+    "height_cm": 175,
+    "body_weight_kg": 98,
+    "career_start_year": 2024
+  },
+  {
+    "name": "Hasler Joel",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/WhatsApp-Image-2025-06-24-at-12.22.49.jpeg",
+    "birth_year": 2003,
+    "height_cm": 191,
+    "body_weight_kg": 105,
+    "career_start_year": 2022
+  },
+  {
+    "name": "Hasler Urs",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/Photo-05.06.2025-15-23-55-4.png",
+    "birth_year": 1983,
+    "height_cm": 192,
+    "body_weight_kg": 110,
+    "career_start_year": 1999
+  },
+  {
+    "name": "Hottinger Janine",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/IMG_3242.jpeg",
+    "birth_year": 1995,
+    "height_cm": 172,
+    "body_weight_kg": 73,
+    "career_start_year": 2016
+  },
+  {
+    "name": "Hunziker Simon",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-11.jpg",
+    "birth_year": 1982,
+    "height_cm": 190,
+    "body_weight_kg": 115,
+    "career_start_year": 2000
+  },
+  {
+    "name": "Husistein Dani",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-2-4.jpg",
+    "birth_year": 1986,
+    "height_cm": 182,
+    "body_weight_kg": 92,
+    "career_start_year": 2024
+  },
+  {
+    "name": "Hutmacher Urs",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-1-9.jpg",
+    "birth_year": 1994,
+    "height_cm": 187,
+    "body_weight_kg": 120,
+    "career_start_year": 2013
+  },
+  {
+    "name": "Jakober Martin",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-10.jpg",
+    "birth_year": 1985,
+    "height_cm": 188,
+    "body_weight_kg": 118,
+    "career_start_year": 2015
+  },
+  {
+    "name": "Jörg Andreas",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-2-3.jpg",
+    "birth_year": 1986,
+    "height_cm": 186,
+    "body_weight_kg": 108,
+    "career_start_year": 2012
+  },
+  {
+    "name": "Kellenberger Christof",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-1-8.jpg",
+    "birth_year": 1985,
+    "height_cm": 187,
+    "body_weight_kg": 105,
+    "career_start_year": 2016
+  },
+  {
+    "name": "Kranzelbinder Daniel",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-9.jpg",
+    "birth_year": 1990,
+    "height_cm": 195,
+    "body_weight_kg": 132,
+    "career_start_year": 2022
+  },
+  {
+    "name": "Landolt Kilian",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/IMG_0996.jpeg",
+    "birth_year": 1989,
+    "height_cm": 178,
+    "body_weight_kg": 100,
+    "career_start_year": 2022
+  },
+  {
+    "name": "Lehmann Daniel",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/250830067A2411.jpg",
+    "birth_year": 1989,
+    "height_cm": 170,
+    "body_weight_kg": 99,
+    "career_start_year": 2018
+  },
+  {
+    "name": "Leimgruber Marco",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/ESAF-Arena_2.jpg",
+    "birth_year": 1987,
+    "height_cm": 193,
+    "body_weight_kg": 98,
+    "career_start_year": 2009
+  },
+  {
+    "name": "Leimgruber Roger",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-2-1.jpg",
+    "birth_year": 1992,
+    "height_cm": 186,
+    "body_weight_kg": 95,
+    "career_start_year": 2010
+  },
+  {
+    "name": "Liechti Daniel",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-2-2.jpg",
+    "birth_year": 1973,
+    "height_cm": 189,
+    "body_weight_kg": 120,
+    "career_start_year": 2013
+  },
+  {
+    "name": "Meienberger Dominik",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-1-5.jpg",
+    "birth_year": 1996,
+    "height_cm": 185,
+    "body_weight_kg": 100,
+    "career_start_year": 2014
+  },
+  {
+    "name": "Mettler Corina",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/250511IMG_7345.jpg",
+    "birth_year": 1994,
+    "height_cm": 168,
+    "body_weight_kg": 71,
+    "career_start_year": 2019
+  },
+  {
+    "name": "Rickenbacher Roland",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-6.jpg",
+    "birth_year": 1985,
+    "height_cm": 185,
+    "body_weight_kg": 95,
+    "career_start_year": 2023
+  },
+  {
+    "name": "Salzman Urs",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-1-4.jpg",
+    "birth_year": 1970,
+    "height_cm": 183,
+    "body_weight_kg": 115,
+    "career_start_year": 2010
+  },
+  {
+    "name": "Schleiss Damian",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2026/03/250830067A3000.jpg",
+    "birth_year": 1992,
+    "height_cm": 188,
+    "body_weight_kg": 119,
+    "career_start_year": 2017
+  },
+  {
+    "name": "Schleiss Simon",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/PHOTO-2025-08-26-22-33-47.jpg",
+    "birth_year": 1991,
+    "height_cm": 193,
+    "body_weight_kg": 103,
+    "career_start_year": 2018
+  },
+  {
+    "name": "Schuler Remo",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-1-2.jpg",
+    "birth_year": 1994,
+    "height_cm": 187,
+    "body_weight_kg": 95,
+    "career_start_year": 2009
+  },
+  {
+    "name": "Schwyter Tobias",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-3.jpg",
+    "birth_year": 1999,
+    "height_cm": 183,
+    "body_weight_kg": 100,
+    "career_start_year": 2022
+  },
+  {
+    "name": "Strähl Daniel",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-1-1.jpg",
+    "birth_year": 1982,
+    "height_cm": 185,
+    "body_weight_kg": 101,
+    "career_start_year": 2017
+  },
+  {
+    "name": "Weibel Michael",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-2.jpg",
+    "birth_year": 1993,
+    "height_cm": 175,
+    "body_weight_kg": 110,
+    "career_start_year": 2019
+  },
+  {
+    "name": "Wüest Fiona",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/10/21c8a208-1e32-4761-a538-587864853698.jpeg",
+    "birth_year": 2003,
+    "height_cm": 170,
+    "body_weight_kg": 72,
+    "career_start_year": 2016
+  },
+  {
+    "name": "Zehnder Markus",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-1.jpg",
+    "birth_year": 1982,
+    "height_cm": 190,
+    "body_weight_kg": 107,
+    "career_start_year": 2016
+  },
+  {
+    "name": "Zumsteg Karin",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/e9e3f7_8aefd97fc196492c82aee379e6ec48aamv2.jpg",
+    "birth_year": 1982,
+    "height_cm": 170,
+    "body_weight_kg": 71,
+    "career_start_year": 2015
+  },
+  {
+    "name": "Züger Andreas",
+    "status": "active",
+    "source_url": "https://steinstossen.ch/aktive/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image.jpg",
+    "birth_year": 1992,
+    "height_cm": 180,
+    "body_weight_kg": 103,
+    "career_start_year": 2012
+  },
+  {
+    "name": "Ambauen Josef",
+    "status": "former",
+    "source_url": "https://steinstossen.ch/ehemalige/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/Bildschirmfoto-2025-08-13-um-22.38.23.png",
+    "birth_year": 1961,
+    "height_cm": 186,
+    "body_weight_kg": 123,
+    "career_start_year": 1981
+  },
+  {
+    "name": "Laimbacher Martin",
+    "status": "former",
+    "source_url": "https://steinstossen.ch/ehemalige/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-1-7.jpg",
+    "birth_year": 1985,
+    "height_cm": 183,
+    "body_weight_kg": 88,
+    "career_start_year": 2006
+  },
+  {
+    "name": "Maire Markus",
+    "status": "former",
+    "source_url": "https://steinstossen.ch/ehemalige/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/markus-maire-tosses-unspunnen-stone-symbol-swiss-440nw-8126513a.jpg",
+    "birth_year": 1970,
+    "height_cm": 185,
+    "body_weight_kg": 115,
+    "career_start_year": null
+  },
+  {
+    "name": "Meyerhans Billi",
+    "status": "former",
+    "source_url": "https://steinstossen.ch/ehemalige/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/gosimg10YL0190010b998080b3000012010ma4.jpg",
+    "birth_year": 1967,
+    "height_cm": 1978,
+    "body_weight_kg": 95,
+    "career_start_year": 2005
+  },
+  {
+    "name": "Michel Peter",
+    "status": "former",
+    "source_url": "https://steinstossen.ch/ehemalige/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/974ffd20-8e8b-4024-b738-bcd463406240.webp",
+    "birth_year": 1971,
+    "height_cm": 198,
+    "body_weight_kg": 136,
+    "career_start_year": 1999
+  },
+  {
+    "name": "Mürner Pascal",
+    "status": "former",
+    "source_url": "https://steinstossen.ch/ehemalige/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/09/WhatsApp-Image-2025-09-08-at-08.57.00.jpeg",
+    "birth_year": 1985,
+    "height_cm": 185,
+    "body_weight_kg": 130,
+    "career_start_year": 2011
+  },
+  {
+    "name": "Rüegg Ivo",
+    "status": "former",
+    "source_url": "https://steinstossen.ch/ehemalige/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/Bildschirmfoto-2025-08-16-um-09.17.28-198x300-1.png",
+    "birth_year": 1971,
+    "height_cm": 184,
+    "body_weight_kg": 100,
+    "career_start_year": null
+  },
+  {
+    "name": "Schmocker Daniel",
+    "status": "former",
+    "source_url": "https://steinstossen.ch/ehemalige/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/image-4.jpg",
+    "birth_year": 1973,
+    "height_cm": 183,
+    "body_weight_kg": 112,
+    "career_start_year": 1998
+  },
+  {
+    "name": "Stählin Roland",
+    "status": "former",
+    "source_url": "https://steinstossen.ch/ehemalige/",
+    "image_url": "https://steinstossen.ch/app/uploads/2025/08/roland-staehlin-switzerland-throws-83-5-kilogramm-550nw-8117240c.jpg",
+    "birth_year": 1966,
+    "height_cm": 202,
+    "body_weight_kg": 135,
+    "career_start_year": 1986
+  }
+]
