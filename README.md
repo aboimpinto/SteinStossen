@@ -4,6 +4,11 @@ Independent performance-data presentation for Swiss stone throwing. It does not
 replace `steinstossen.ch` or its official rankings; it turns the existing PDF archive
 into athlete, competition-series, and season views.
 
+- Live site: https://steinstossen.aboimpinto.cloud-ip.cc
+- Repository: https://github.com/aboimpinto/SteinStossen
+- German: https://steinstossen.aboimpinto.cloud-ip.cc/de
+- English: https://steinstossen.aboimpinto.cloud-ip.cc/en
+
 ## What is included
 
 - athlete profiles with all seasons or the last ten seasons;
@@ -114,8 +119,12 @@ npm run build
 
 ## AWS / Docker
 
-The lowest-friction deployment is a single container with the read-only SQLite file
-inside the image:
+Production is tag-driven through `.github/workflows/cd.yml`. Tags matching
+`SteinStossen-vX.Y.Z` build an immutable GHCR image and deploy it to the AWS host.
+Normal pushes run CI only. See `deploy/README.md` for the full runbook.
+
+The lowest-friction local deployment is a single container with the read-only SQLite
+file inside the image:
 
 ```bash
 docker compose up -d --build

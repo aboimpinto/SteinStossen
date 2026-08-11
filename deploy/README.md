@@ -175,11 +175,27 @@ Re-run the CD workflow for a known-good tag or push a new corrective release tag
 uses the known-good commit. Never replace or edit the SQLite file inside a running
 container; release a reviewed image instead.
 
-## Pending one-time actions
+## Deployment execution log
 
-- receive the local AWS PEM path;
-- store its contents in `AWS_SSH_PRIVATE_KEY`;
-- verify host port `3008` is free;
-- install the isolated Nginx vhost and certificate;
-- create and push the first release tag;
-- browser-verify the public German and English routes.
+### 2026-08-11
+
+- Confirmed DNS resolves `steinstossen.aboimpinto.cloud-ip.cc` to `3.68.99.232`.
+- Confirmed host port `3008` was free; existing services on ports `3003`–`3007`
+  were left unchanged.
+- Configured the five GitHub repository variables and encrypted
+  `AWS_SSH_PRIVATE_KEY` secret.
+- Pushed `master`; CI passed importer tests, SQLite validation, typecheck, ESLint,
+  Next.js build, Docker build, and bilingual container smoke tests.
+- Installed only the new Steinstossen Nginx vhost after saving an `nginx -T`
+  snapshot and passing `nginx -t`.
+- Pushed tag `SteinStossen-v0.1.0`, which triggered the first production deployment.
+- Published `ghcr.io/aboimpinto/steinstossen-website:SteinStossen-v0.1.0` and
+  `:latest`.
+- Deployed healthy container `SteinStossen_SteinStossen-v0.1.0` bound only to
+  `127.0.0.1:3008` with the committed SQLite database embedded in the image.
+- Issued a Let's Encrypt certificate and enabled HTTP-to-HTTPS redirection.
+- Verified health, German, English, athlete, competition, season, methodology,
+  responsive chart, portrait-image, and mobile routes in production with no browser
+  console errors or horizontal overflow.
+- Rechecked SophiaWalker.ch, Limmat Sharks, and Old Boys Basel after the Nginx reload;
+  all returned HTTP 200.
