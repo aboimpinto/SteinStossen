@@ -62,7 +62,7 @@ npm ci
 npm run dev
 ```
 
-Open `http://localhost:3000`. The root redirects to German; use `/en` for English.
+Open `http://localhost:3210`. The root redirects to German; use `/en` for English.
 
 Production:
 
